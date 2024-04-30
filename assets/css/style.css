@@ -152,7 +152,7 @@ h2 {
 }
 
 .hero-header {
-    background-image: url('/assets/images/plumbing-home.jpg');
+    background-image: url('../images/plumbing-home.jpg');
     background-size: cover;
     background-color: #2278fa1b;
     height: 90vh;
@@ -312,7 +312,7 @@ h3 {
 }
 
 .about-sec {
-    background-image: url(/assets/images/p5.jpg);
+    background-image: url('../images/p5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px 0;
@@ -525,7 +525,7 @@ h2::after {
 
 .testimonial-section {
     padding: 100px 0;
-    background: url('/assets/images/p6.jpg');
+    background: url('../images/p6.jpg');
     background-size: cover;
     position: relative;
 }
@@ -550,7 +550,7 @@ h2::after {
 }
 
 .testi-box {
-    background: url('/assets/images/p7.jpg');
+    background: url('../images/p7.jpg');
     background-size: cover;
     height: 500px;
     position: relative;
@@ -621,7 +621,7 @@ h2::after {
 }
 
 .contact-top {
-    background: url('/assets/images/p5.jpg');
+    background: url('../images/p5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right;
