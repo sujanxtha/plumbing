@@ -782,7 +782,9 @@ footer {
     color: #fff;
     background: #104ca5;
 }
-
+.testimonial-section{
+    overflow: hidden;
+}
 @media(max-width:1300px) {
     .container {
         width: 90%;
