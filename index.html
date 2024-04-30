@@ -5,7 +5,7 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>UpTech</title>
-
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/css/splide.min.css"
             integrity="sha512-KhFXpe+VJEu5HYbJyKQs9VvwGB+jQepqb4ZnlhUF/jQGxYJcjdxOTf6cr445hOc791FFLs18DKVpfrQnONOB1g=="
@@ -94,7 +94,7 @@
         <section class="hero-header">
             <div class="container">
                 <div class="hero-wrapper gap-70">
-                    <div class="hero-left">
+                    <div class="hero-left" data-aos="fade" data-aos-once="true">
                         <p class="pb-20">Building with Confidence</p>
                         <h1>
                             <span>Building</span> And <span>Maintaining</span>
@@ -114,7 +114,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="hero-right">
+                    <div class="hero-right" data-aos="slide-up" data-aos-once="true">
                         <div class="splide banner-slider" id="image-carousel"
                             aria-label="Beautiful Images">
                             <div class="splide__track">
@@ -145,7 +145,7 @@
             <section class="about-sec">
                 <div class="container">
                     <div class="about-wrapper">
-                        <div class="about-left relative">
+                        <div class="about-left relative" data-aos="fade" data-aos-once="true">
                             <div class="big-img about-img">
                                 <img src="assets/images/watertreatment.jpg"
                                     class="img-responsive" alt>
@@ -156,7 +156,7 @@
                             </div>
 
                         </div>
-                        <div class="about-right">
+                        <div class="about-right" data-aos="slide-up" data-aos-once="true" data-aos="fade" data-aos-once="true">
                             <h2>Your Business Name LLC</h2>
                             <p>Lorem ipsum dolor sit amet consectetur
                                 adipisicing elit. Provident odit velit et
@@ -190,7 +190,7 @@
                     <p class="pb-20">No Job is too big or too small at your
                         business name LLC</p>
                     <div class="flex first-service gap-25">
-                        <div class="service-box">
+                        <div class="service-box" data-aos="fade" data-aos-once="true">
                             <h4 class="pb-20">Plumbing</h4>
                             <p class="pb-30"><span>Business Name</span> Lorem
                                 ipsum dolor sit amet consectetur adipisicing
@@ -207,7 +207,7 @@
                             </a>
 
                         </div>
-                        <div class="service-box">
+                        <div class="service-box" data-aos="fade" data-aos-once="true">
                             <h4 class="pb-20">Plumbing</h4>
                             <p class="pb-30"><span>Business Name</span> Lorem
                                 ipsum dolor sit amet consectetur adipisicing
@@ -225,7 +225,7 @@
                         </div>
                     </div>
                     <div class="flex gap-25 second-service">
-                        <div class="service-box">
+                        <div class="service-box" data-aos="fade" data-aos-once="true">
                             <h4 class="pb-20">Plumbing</h4>
                             <p class="pb-30"><span>Business Name</span> Lorem
                                 ipsum dolor sit amet consectetur adipisicing
@@ -242,7 +242,7 @@
                             </a>
 
                         </div>
-                        <div class="service-box">
+                        <div class="service-box" data-aos="fade" data-aos-once="true">
                             <h4 class="pb-20">Plumbing</h4>
                             <p class="pb-30"><span>Business Name</span> Lorem
                                 ipsum dolor sit amet consectetur adipisicing
@@ -266,7 +266,7 @@
                 <h2 class="txt-center pb-20">Featured Projects</h2>
                 <p class="pb-20 txt-center pb-20">Some of the project Business
                     Name repaired</p>
-                <div class="project-wrapper">
+                <div class="project-wrapper" data-aos="slide-up" data-aos-once="true">
                     <div class="project">
                         <div class="project-img"><img
                                 src="assets/images/p4.jpg"
@@ -314,12 +314,12 @@
                 <div class="testi-overlay"></div>
                 <div class="container">
                     <div class="testimonial-wrapper">
-                        <div class="testi-left">
+                        <div class="testi-left" data-aos="slide-up" data-aos-once="true">
                             <h2>Client's Testimonials</h2>
                             <p>Here's what out customer are saying about Your
                                 Business LLC</p>
                         </div>
-                        <div class="testi-right">
+                        <div class="testi-right" data-aos="slide-left" data-aos-once="true">
                             <div class="splide banner-slider"
                                 id="image-carousel2"
                                 aria-label="Beautiful Images">
@@ -590,7 +590,15 @@
                 src="https://cdnjs.cloudflare.com/ajax/libs/splidejs/4.1.4/js/splide.min.js"
                 integrity="sha512-4TcjHXQMLM7Y6eqfiasrsnRCc8D/unDeY1UGKGgfwyLUCTsHYMxF7/UHayjItKQKIoP6TTQ6AMamb9w2GMAvNg=="
                 crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-            <!-- Initialize Splide -->
+                <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                <script>
+                  AOS.init({
+                    once: true,
+                    offset: 300,
+                    duration: 1000,
+                  });
+                </script>
+    
             <script>
         document.addEventListener('DOMContentLoaded', function () {
             new Splide('#image-carousel', {
