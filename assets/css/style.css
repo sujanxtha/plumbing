@@ -996,7 +996,7 @@ footer {
    
     }
     .hero-header {
-        height: 150vh;
+        height: 100%;
         padding-top: 120px;
     }
     h3 {
@@ -1035,10 +1035,13 @@ footer {
         width: 80%;
     }
     .testi-box {
-        height: 500px;
-        width: 80%;
+        height: 535px;
+        width: 70%;
         margin: 0;
     }
+.author{
+    margin-top: 50px;
+}
     .testimonial-section{
         overflow: hidden;
     }
@@ -1047,7 +1050,19 @@ footer {
         grid-template-columns: 1fr;
         justify-items: flex-start;
     }
-
+    .big-img {
+        width: 300px;
+        height: 330px;
+    }
+    .about-sec{
+        padding: 50px 0;
+    }
+    .small-img {
+        width: 160px;
+        height: 130px;
+        right: 0px;
+        bottom: -20px;
+    }
     .mobile-menu-contents {
         display: block;
         padding: 20px;
